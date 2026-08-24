@@ -19,7 +19,7 @@ The interactive Power BI dashboard enables us to perform:
 - 30 routes across Nairobi CBD network
 - 3 vehicle types (Standard, Nganya, Electric)
 - 3 fuel types (Petrol, Diesel, Electric)
-- Date range: January 2023 — December 2025
+- Date range: January 2023 - December 2025
 
 ---
 
