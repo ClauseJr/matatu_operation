@@ -256,7 +256,37 @@ This dashboard enables fleet operators to monitor fuel spend in real time, ident
 
 <img width="734" height="412" alt="cost" src="https://github.com/user-attachments/assets/5c8af59b-8b1c-4e5a-9613-be6f2f378988" />
 
+## Page 4 - Summary Dashboard
+
+This dashboard synthesizes all dimensions — revenue, profitability, fuel costs, customer behavior, and seasonality — into an integrated view for strategic decision-making and forward planning.
+
+```
+Key KPIs:
+- Total Revenue — KSh 57.35M
+- Total Profit — KSh 43.62M
+- Total Trips — 17,000 journeys
+- Active Fleet — 29 vehicles
+```
+
+Network revenue of KSh 57.35M translates to KSh 3.37M in average monthly revenue with consistent profitability maintaining 76% margins month-to-month. 
+
+Standard vehicles generate the largest revenue volume at KSh 30M (52% of network revenue), followed by Nganya at KSh 21M (37%), and Electric vehicles at KSh 6M (11%). 
+
+The consistency of profit across months suggests a stable operational model not significantly impacted by external shocks, though seasonal patterns warrant monitoring. 
+
+M-Pesa payment dominance at 85%+ of transactions aligns with Kenya's mobile-money ecosystem, while cash payments remain a secondary channel at 15%, indicating mature digital payment adoption.
+
+Revenue concentration by geography shows CBD Railway and OTC boarding stages accounting for over 60% of network revenue, with secondary nodes like Odeon and Kencom contributing 15–20% each. 
+
+Seasonal analysis reveals Dry Season (June–October) generates 49.78% of annual revenue, indicating strong demand during school terms and favorable travel conditions, while Long Rains and Short Rains seasons each contribute ~25%, pointing to weather-dependent demand elasticity. 
+
+Time-of-day analysis confirms Afternoon (2–5 PM) as the critical revenue window at 31.17%, suggesting that workforce commutes and afternoon leisure travel drive the bulk of matatu demand.
+
+This dashboard serves as the strategic command center for network-wide planning, enabling leadership to forecast revenue by season, allocate vehicles by peak demand windows, manage cash flow across payment channels, and identify growth opportunities in underperforming geographic and temporal segments.
+
+
 <img width="734" height="411" alt="summary" src="https://github.com/user-attachments/assets/98ef4190-cf35-42bb-ab0a-ee6d7043d711" />
 
+---
 
 
