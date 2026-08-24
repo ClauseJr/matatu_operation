@@ -332,4 +332,25 @@ Implement a dynamic pricing model: increase fares by 10–15% during Dry season 
 
 ---
 
+## Limitations
+
+This analysis has several limitations that should be acknowledged when interpreting the results:
+
+-	The dataset used in this project is synthetically generated and does not reflect real matatu operations. As a result, certain patterns and trends may be simplified or artificially structured, limiting the extent to which findings can be generalized to actual Nairobi SACCOs and route performance.
+
+-	The analysis covers only a single calendar year (January 2023 – December 2025) and therefore cannot capture multi-year trends, cyclical patterns, or how the network responds to external shocks such as fuel price spikes, regulatory changes, or major traffic disruptions.
+
+-	Fuel consumption data exhibits implausibly uniform variance across routes (3–7 percentage points within vehicle type), suggesting the synthetic data does not account for real-world consumption variation driven by traffic conditions, route terrain, driver skill, vehicle maintenance, and passenger load.
+
+-	The dataset does not include upcountry routes (Nairobi–Nakuru, Nairobi–Mombasa) or specialized transport segments (school shuttles, corporate transport), limiting the generalizability of recommendations to long-distance and niche transport operations.
+
+-	The analysis assumes uniform profit margins (76.06%) across all routes and SACCOs, but real operations exhibit significant fixed-cost structures and economies of scale that create route-level profitability variance not captured in this model.
+
+-	Monthly profit trends show an artificial oscillating pattern (up-down-up-down) arising from the data generator rather than realistic seasonal variation, limiting the reliability of specific monthly rankings and seasonal recommendations without validation against actual historical traffic data.
+
+-	Data quality issues were addressed through Winsorization (capping outlier distances) and deduplication (removing 510 suspected duplicates), which may have introduced systematic bias if these records represented legitimate operational states (express routes, parallel bookings) rather than errors.
+
+-	The analysis does not account for external factors such as public holidays, fuel price fluctuations, competitor SACCO activity, weather events, or regulatory changes that would significantly influence real-world matatu demand and profitability.
+
+---
 
