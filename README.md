@@ -289,4 +289,47 @@ This dashboard serves as the strategic command center for network-wide planning,
 
 ---
 
+## Recommendations
+
+Based on the analysis of Nairobi matatu operations data across 15 SACCOs and 30 routes from January 2023 to December 2025, the following recommendations are proposed to guide strategic decision-making and improve overall network profitability and operational efficiency.
+
+### 1. Expand Electric Vehicle Fleet from 6% to 15% of Network
+
+Electric vehicles maintain a commanding 95% profit margin, the highest across all vehicle types yet represent only 6% of total network trips at 1,020 journeys. Despite generating just KSh 6M in absolute revenue, their near-zero fuel costs (KSh 0.3M) and high per-trip profitability make them the most efficient revenue generators. 
+
+Expanding the Electric fleet from 2 vehicles to 5–6 vehicles (15% of network) would add approximately KSh 7–8M in incremental profit assuming same utilization rates, without proportional fuel cost increases. This expansion should prioritize short-haul, high-frequency CBD routes where Electric vehicles excel.
+
+### 2. Redeploy Standard Vehicles from Primary Routes to Secondary Corridors
+
+Standard vehicles consume 64% of the network's fuel budget (KSh 8.7M) while operating only 59% of trips, indicating fuel inefficiency compared to Nganya. Yet Standard vehicles generate KSh 30M in revenue and remain critical for volume. 
+
+Rather than eliminating Standard vehicles, redeploy them to secondary, lower-demand routes and shorter-haul trips where their higher consumption is offset by simplicity and lower maintenance costs. Reserve primary high-volume corridors (CBD-Westlands, CBD-Karen, CBD-South) for Nganya vehicles which achieve 80% margins at identical fuel costs but with better per-trip profitability.
+
+### 3. Accelerate Fleet Transition from Petrol to Diesel
+
+Diesel-powered vehicles outperform Petrol vehicles by 5 percentage points in profit margin (77.35% vs 72.73%) across comparable routes and trip volumes. Petrol vehicles currently consume 16% of fuel budget (KSh 2.2M) while contributing only 12.73% of network profit. 
+
+A systematic transition from Petrol to Diesel targeting 50% of Petrol fleet conversion within 12 months would unlock approximately KSh 1.5–2M in incremental annual profit through improved fuel efficiency and higher per-kilometer returns. Negotiate bulk Diesel-vehicle procurement with manufacturers to achieve favorable pricing during transition.
+
+### 4. Optimize Afternoon Peak Deployment (12–5 PM Window)
+
+Afternoon hours generate 31.17% of daily revenue (KSh 12.2M) despite representing only 25% of operational hours, indicating extreme peak concentration during the 12–5 PM commute window. 
+
+Current deployment does not fully capitalize on this peak. SACCOs should redeploy 30–40% of fleet capacity to afternoon routes 12–2 hours before peak (1:00 PM departure) to maximize trip completion during the high-demand window. This tactical scheduling adjustment could increase afternoon revenue by 8–12% (approximately KSh 1–1.5M incremental) without requiring additional vehicles.
+
+
+### 5. Invest in Electric Infrastructure at CBD Charging Hubs
+
+Electric vehicles currently represent 95% margin but only 6% of network trips due to charging infrastructure limitations. Establish dedicated EV charging stations at the three highest-revenue CBD boarding stages (Railways, OTC, Odeon) to enable electric vehicles to complete multiple high-volume CBD loops without range constraints. 
+
+Capital investment of approximately KSh 2–3M in charging infrastructure would enable scaling Electric fleet to 10–15 vehicles (from current 2) without operational risk. The 7–8 vehicles added would generate KSh 12–15M in incremental annual revenue at 95% margins.
+
+### 6. Implement Dynamic Pricing for Peak Hours and Peak Seasons
+
+Dry season (June–October) generates 49.78% of annual revenue while Short Rains and Long Rains seasons each contribute ~25%, yet current fares remain flat year-round. Similarly, afternoon peak (2–5 PM) drives 31% of daily revenue while night hours (10 PM–6 AM) drive only 17%, yet no time-of-day fare differentiation exists. 
+
+Implement a dynamic pricing model: increase fares by 10–15% during Dry season and afternoon peaks, decrease by 5–10% during off-peak seasons and night hours. This model would improve revenue per trip by 3–5% (approximately KSh 1.7–2.8M incremental annually) while smoothing demand across underutilized night and off-season periods.
+
+---
+
 
