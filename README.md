@@ -258,7 +258,7 @@ This dashboard enables fleet operators to monitor fuel spend in real time, ident
 
 ## Page 4 - Summary Dashboard
 
-This dashboard synthesizes all dimensions — revenue, profitability, fuel costs, customer behavior, and seasonality — into an integrated view for strategic decision-making and forward planning.
+This dashboard synthesizes all dimensions — revenue, profitability, fuel costs, customer behavior, and seasonality vinto an integrated view for strategic decision-making and forward planning.
 
 ```
 Key KPIs:
