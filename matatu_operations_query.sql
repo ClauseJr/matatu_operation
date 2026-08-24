@@ -104,7 +104,7 @@ SELECT
 	total_profit,
 	profit_rank
 FROM best_routes_per_vehicle_type
-WHERE profit_rank <= 3
+WHERE profit_rank <= 3;
 
 -- Top 3 Best Performing Saccos by Profitability
 WITH sacco_performance AS (
@@ -197,7 +197,7 @@ SELECT
 	ROUND(SUM(revenue_ksh)::numeric,2)
 FROM matatu_operation_dataset
 GROUP BY distance_km_clean
-ORDER BY distance_km_clean DESC
+ORDER BY distance_km_clean DESC;
 
 -- Fuel Consumption Rates based on the Vehicle type
 SELECT
