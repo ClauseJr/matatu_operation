@@ -186,7 +186,6 @@ Key KPIs:
 ```
 
 Overall revenue stood at KSh 57.35M with a healthy profit margin of 76.06%, generating KSh 43.62M profits in return across the 3 years. 
-
 Fuel costs consumed 26.64% of revenue, leaving strong margins across the network. 
 
 With 17,000 trips completed across 29 vehicles, the network demonstrates consistent demand and operational utilization. This indicates a well-functioning transport system with sustainable profitability metrics.
@@ -203,6 +202,29 @@ This dashboard serves as an executive snapshot, enabling SACCO managers and flee
 
 
 <img width="731" height="411" alt="overview " src="https://github.com/user-attachments/assets/4806f896-6842-47c7-b770-a313229c1b02" />
+
+## Page 2 - Profitability Dashboard
+
+This dashboard analyzes profitability performance across vehicle types, fuel types, SACCOs, and geographic boarding stages, revealing which operational segments drive the highest returns.
+
+```
+Key KPIs:
+- Total Profit — KSh 43.62M
+- Profit Margin — 76.06%
+- Number of Routes — 30 active corridors
+- Number of SACCOs — 15 transport operators
+```
+
+Profit distribution across the network is heavily concentrated in a few high-performing SACCOs and routes, with Embassava generating KSh 5.1M (11.7% of network profit), Citi Hoppa contributing KSh 4.7M (10.8%), and KBS adding KSh 3.9M (8.9%).
+
+Together, the top 3 SACCOs account for 31% of network profit, indicating that profitability is not evenly distributed. This concentration presents a strategic opportunity, replicating the operational practices of top performers across lower-performing SACCOs could unlock significant margin improvements across the network.
+
+Vehicle type profitability reveals a clear efficiency hierarchy: Electric vehicles achieve 95.45% margin in morning slots despite low volume, Nganya vehicles consistently maintain 80% margins across all time periods with balanced trip counts, and Standard vehicles persist at 71% margins despite representing the majority of trips. 
+
+Diesel-powered vehicles dominate profit contribution at 73.48%, with CBD Railway and OTC boarding stages accounting for over 60% of revenue. This suggests that core urban corridor performance drives the network's profitability, and that fuel type optimization (Diesel-heavy fleets) directly improves bottom-line performance.
+
+This dashboard enables SACCO management to identify their competitive position within the network, benchmark performance against peers, and understand which vehicle-type and fuel-type combinations maximize profit for their operational scale and route mix.
+
 
 <img width="735" height="410" alt="profitability" src="https://github.com/user-attachments/assets/5a858073-1a25-4c07-a579-afd474bf6cdb" />
 
