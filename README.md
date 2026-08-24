@@ -173,19 +173,31 @@ ORDER BY month ASC;
 The project includes interactive Power BI dashboards designed to analyze Nairobi's matatu transport operations from multiple perspectives, including profitability analysis, fuel efficiency, operational performance, and strategic planning.
 
 
-## Page 1 — Overview Dashboard
+## Page 1 - Overview Dashboard
 
 This dashboard provides a high-level summary of matatu transport network performance across 15 SACCOs and 30 routes from January 2026 to December 2026.
 
-**Key KPIs:**
-- **Total Revenue** — KSh 57.35M
-- **Total Profit** — KSh 43.62M (76.06% profit margin)
-- **Total Fuel Cost** — KSh 13.73M (23.94% of revenue)
-- **Total Matatu Trips** — 17,000 completed journeys
+```
+Key KPIs:
+- Total Revenue — KSh 57.35M
+- Total Profit — KSh 43.62M (76.06% profit margin)
+- Total Fuel Cost — KSh 13.73M (26.64% of revenue)
+- Total Matatu Trips — 17,000 completed journeys
+```
 
-Overall revenue stood at KSh 57.35M with a healthy profit margin of 76.06%, generating KSh 43.62M in earnings. Fuel costs consumed 23.94% of revenue, leaving strong margins across the network. With 17,000 trips completed across 29 vehicles, the network demonstrates consistent demand and operational utilization. This indicates a well-functioning transport system with sustainable profitability metrics.
+Overall revenue stood at KSh 57.35M with a healthy profit margin of 76.06%, generating KSh 43.62M profits in return across the 3 years. 
 
-Electric vehicles maintain a commanding 95% profit margin despite representing only 6% of total trips, while Standard vehicles drive volume with 59% of trips but earn lower margins at 71%. Nganya vehicles strike a balance at 80% margin with 35% trip volume. Peak demand occurs during afternoon hours (31.17% of daily revenue), morning peaks at 26.26%, with night hours representing the weakest demand at 16.81%. Diesel fuel dominates the fleet's fuel type composition at 73.48% of profit contribution, outperforming Petrol vehicles by 5 percentage points despite lower trip volume. This portfolio composition reveals significant margin-per-trip efficiency differences across vehicle types and fuel types.
+Fuel costs consumed 26.64% of revenue, leaving strong margins across the network. 
+
+With 17,000 trips completed across 29 vehicles, the network demonstrates consistent demand and operational utilization. This indicates a well-functioning transport system with sustainable profitability metrics.
+
+Electric vehicles maintain a commanding 95% profit margin despite representing only 6% of total trips, while Standard vehicles drive volume with 59% of trips but earn lower margins at 71%. Nganya vehicles strike a balance at 80% margin with 35% trip volume. 
+
+Peak demand occurs during afternoon hours (31.17% of daily revenue), morning peaks at 26.26%, with night hours representing the weakest demand at 16.81%. 
+
+Diesel fuel dominates the fleet's fuel type composition at 73.48% of profit contribution, outperforming Petrol vehicles by 5 percentage points despite lower trip volume. 
+
+This portfolio composition reveals significant margin-per-trip efficiency differences across vehicle types and fuel types.
 
 This dashboard serves as an executive snapshot, enabling SACCO managers and fleet operators to quickly assess network health, identify the most efficient vehicle deployments, and spot peak demand windows for tactical scheduling decisions.
 
