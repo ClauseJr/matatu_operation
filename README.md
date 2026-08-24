@@ -181,12 +181,12 @@ This dashboard provides a high-level summary of matatu transport network perform
 Key KPIs:
 - Total Revenue — KSh 57.35M
 - Total Profit — KSh 43.62M (76.06% profit margin)
-- Total Fuel Cost — KSh 13.73M (26.64% of revenue)
+- Total Fuel Cost — KSh 13.73M (23.94% of revenue)
 - Total Matatu Trips — 17,000 completed journeys
 ```
 
 Overall revenue stood at KSh 57.35M with a healthy profit margin of 76.06%, generating KSh 43.62M profits in return across the 3 years. 
-Fuel costs consumed 26.64% of revenue, leaving strong margins across the network. 
+Fuel costs consumed 23.94% of revenue, leaving strong margins across the network. 
 
 With 17,000 trips completed across 29 vehicles, the network demonstrates consistent demand and operational utilization. This indicates a well-functioning transport system with sustainable profitability metrics.
 
@@ -225,10 +225,36 @@ Diesel-powered vehicles dominate profit contribution at 73.48%, with CBD Railway
 
 This dashboard enables SACCO management to identify their competitive position within the network, benchmark performance against peers, and understand which vehicle-type and fuel-type combinations maximize profit for their operational scale and route mix.
 
+<img width="733" height="412" alt="profitability" src="https://github.com/user-attachments/assets/3907ed04-9da5-40b7-8cb3-5f95d1ab2dc9" />
 
-<img width="735" height="410" alt="profitability" src="https://github.com/user-attachments/assets/5a858073-1a25-4c07-a579-afd474bf6cdb" />
 
-<img width="735" height="413" alt="cost" src="https://github.com/user-attachments/assets/58efd69c-d9f7-42e1-9ca0-12562c3d5f7a" />
+## Page 3 - Costs Dashboard
+
+This dashboard provides a granular view of fuel spending, consumption efficiency, and cost structures across vehicle types, fuel types, SACCOs, and time-of-day periods.
+
+```
+Key KPIs:
+- Total Fuel Cost — KSh 13.73M
+- Fuel Consumption Rate — 26.64 L/100km (average across petrol/diesel)
+- Average Trip Distance — 16.15 km
+- Trips Analyzed — 17,000 journeys
+```
+
+Fuel expenditure of KSh 13.73M represents 23.94% of total network revenue, a ratio well within sustainable operating parameters. Average fuel consumption of 26.64 L/100km across the petrol/diesel fleet indicates moderate efficiency typical of African urban transport operations. 
+
+With an average trip length of 16.15 km, the typical matatu journey consumes approximately 4.3 litres of fuel, translating to a fuel cost of approximately KSh 807 per trip when calculated at average fuel prices. This cost structure is recoverable through current fares, confirming the network's operational sustainability.
+
+Standard vehicles consume 64% of the network's total fuel budget at KSh 8.7M, while operating 59% of trips indicating slightly higher fuel consumption per trip than the network average. 
+
+Nganya vehicles maintain better efficiency, consuming only KSh 4.7M fuel while running 35% of trips. Electric vehicles, though representing only 6% of trips, consume negligible fuel cost at KSh 0.3M due to extremely low electricity rates compared to petrol/diesel. 
+
+Afternoon peak hours (2–5 PM) drive the highest fuel spend at KSh 4.3M, directly correlating with peak demand. 
+
+SACCO-level fuel cost analysis reveals efficiency variation: Embassava achieves KSh 835 fuel cost per trip, while smaller operators vary between KSh 750–KSh 950 per trip, suggesting best-practice fuel management techniques are concentrated in larger SACCOs.
+
+This dashboard enables fleet operators to monitor fuel spend in real time, identify which vehicle types and routes are over-consuming fuel relative to revenue generation, and benchmark SACCO-level efficiency metrics to drive continuous cost reduction.
+
+<img width="734" height="412" alt="cost" src="https://github.com/user-attachments/assets/5c8af59b-8b1c-4e5a-9613-be6f2f378988" />
 
 <img width="734" height="411" alt="summary" src="https://github.com/user-attachments/assets/98ef4190-cf35-42bb-ab0a-ee6d7043d711" />
 
