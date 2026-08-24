@@ -74,8 +74,102 @@ Power BI was used for interactive dashboard development and storytelling:
 
 ---
 
-## Project Structure
+## Data Analysis
 
+```python
+# Load the dataset
+df = pd.read_csv("./data/nairobi_matatu_synthetic_dataset.csv")
+
+print(df.to_string(max_rows = 10))
+```
+```python
+# Save the cleaned dataset to a new CSV file
+df.to_csv("./data/nairobi_matatu_synthetic_dataset_cleaned.csv", index = False)
+```
+```sql
+-- Profit Margin
+SELECT
+	total_revenue,
+	total_profit,
+	ROUND((total_profit/total_revenue) * 100,2) AS profit_margin
+FROM(
+	SELECT
+		ROUND(SUM(revenue_ksh)::numeric,2) AS total_revenue,
+		ROUND(SUM(profit_ksh)::numeric,2) AS total_profit
+	FROM matatu_operation_dataset
+);
+```
+```sql
+
+
+-- Best Performing Routes per Vehicle Type
+WITH route_performance AS (
+	SELECT
+		route_number,
+		vehicle_type, 
+		ROUND(SUM(revenue_ksh)::numeric,2) AS total_revenue,
+		ROUND(SUM(profit_ksh)::numeric,2) AS total_profit
+	FROM matatu_operation_dataset
+	GROUP BY route_number, vehicle_type
+	-- ORDER BY total_profit DESC
+),
+best_routes_per_vehicle_type AS(
+	SELECT
+		route_number,
+		vehicle_type,
+		total_revenue,
+		total_profit,
+		DENSE_RANK() OVER(PARTITION BY vehicle_type ORDER BY total_profit DESC) AS profit_rank
+	FROM route_performance
+)
+SELECT
+	route_number,
+	vehicle_type,
+	total_revenue,
+	total_profit,
+	profit_rank
+FROM best_routes_per_vehicle_type
+WHERE profit_rank <= 3;
+```
+```sql
+
+-- Monthly Performance
+SELECT
+	EXTRACT(MONTH FROM date_clean) AS month,
+	TO_CHAR(date_clean, 'Mon') AS month_name,
+	ROUND(SUM(revenue_ksh)::numeric,2) AS revenue,
+	ROUND(SUM(profit_ksh)::numeric,2) AS matatu_profits
+FROM matatu_operation_dataset
+GROUP BY EXTRACT(MONTH FROM date_clean), TO_CHAR(date_clean, 'Mon')
+ORDER BY month ASC;
+
+
+-- MOM Analysis
+WITH monthly_performance AS (
+	SELECT
+		EXTRACT(MONTH FROM date_clean) AS month,
+		TO_CHAR(date_clean, 'Mon') AS month_name,
+		ROUND(SUM(revenue_ksh)::numeric,2) AS revenue,
+		ROUND(SUM(profit_ksh)::numeric,2) AS matatu_profits
+	FROM matatu_operation_dataset
+	GROUP BY EXTRACT(MONTH FROM date_clean), TO_CHAR(date_clean, 'Mon')
+)
+SELECT
+	month,
+	month_name,
+	revenue,
+	matatu_profits,
+	LAG(matatu_profits) OVER(ORDER BY month ASC) AS previous_month,
+	ROUND(
+	(matatu_profits - LAG(matatu_profits) OVER(ORDER BY month ASC))
+	/ LAG(matatu_profits) OVER(ORDER BY month ASC) * 100
+	,2 ) AS monthly_pct_change
+FROM monthly_performance
+ORDER BY month ASC;
+```
+---
+
+## Project Structure
 
 <img width="731" height="411" alt="overview " src="https://github.com/user-attachments/assets/4806f896-6842-47c7-b770-a313229c1b02" />
 
