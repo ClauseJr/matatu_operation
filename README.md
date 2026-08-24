@@ -169,7 +169,7 @@ ORDER BY month ASC;
 ```
 ---
 
-## Project Structure
+## Project Dashboards
 
 <img width="731" height="411" alt="overview " src="https://github.com/user-attachments/assets/4806f896-6842-47c7-b770-a313229c1b02" />
 
