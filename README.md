@@ -200,8 +200,8 @@ This portfolio composition reveals significant margin-per-trip efficiency differ
 
 This dashboard serves as an executive snapshot, enabling SACCO managers and fleet operators to quickly assess network health, identify the most efficient vehicle deployments, and spot peak demand windows for tactical scheduling decisions.
 
+<img width="734" height="412" alt="OVERVIEW DASHBOARD " src="https://github.com/user-attachments/assets/d1844fa6-3a13-447e-98b6-d8bd2e1c07d7" />
 
-<img width="731" height="411" alt="overview " src="https://github.com/user-attachments/assets/4806f896-6842-47c7-b770-a313229c1b02" />
 
 ## Page 2 - Profitability Dashboard
 
@@ -225,7 +225,7 @@ Diesel-powered vehicles dominate profit contribution at 73.48%, with CBD Railway
 
 This dashboard enables SACCO management to identify their competitive position within the network, benchmark performance against peers, and understand which vehicle-type and fuel-type combinations maximize profit for their operational scale and route mix.
 
-<img width="733" height="412" alt="profitability" src="https://github.com/user-attachments/assets/3907ed04-9da5-40b7-8cb3-5f95d1ab2dc9" />
+<img width="734" height="412" alt="PROFITABILITY DASHBOARD" src="https://github.com/user-attachments/assets/caf63955-5531-4c6f-a34d-69c96ca91b44" />
 
 
 ## Page 3 - Costs Dashboard
@@ -254,7 +254,7 @@ SACCO-level fuel cost analysis reveals efficiency variation: Embassava achieves 
 
 This dashboard enables fleet operators to monitor fuel spend in real time, identify which vehicle types and routes are over-consuming fuel relative to revenue generation, and benchmark SACCO-level efficiency metrics to drive continuous cost reduction.
 
-<img width="734" height="412" alt="cost" src="https://github.com/user-attachments/assets/5c8af59b-8b1c-4e5a-9613-be6f2f378988" />
+<img width="736" height="412" alt="COST DASHBOARD" src="https://github.com/user-attachments/assets/96a326d4-b9a3-484b-a612-85c077f181f6" />
 
 ## Page 4 - Summary Dashboard
 
@@ -284,8 +284,7 @@ Time-of-day analysis confirms Afternoon (2–5 PM) as the critical revenue windo
 
 This dashboard serves as the strategic command center for network-wide planning, enabling leadership to forecast revenue by season, allocate vehicles by peak demand windows, manage cash flow across payment channels, and identify growth opportunities in underperforming geographic and temporal segments.
 
-
-<img width="734" height="411" alt="summary" src="https://github.com/user-attachments/assets/98ef4190-cf35-42bb-ab0a-ee6d7043d711" />
+<img width="734" height="412" alt="SUMMARY DASHBOARD " src="https://github.com/user-attachments/assets/1881dc59-42d3-4b19-ad3d-91116f10b0b6" />
 
 ---
 
